@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+          integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+          crossorigin="anonymous"
+        />
+        <title></title>
+    </head>
+    <body>
+        <div class="nav-div">
+            <div>Difficulty
+                <select id="sid">
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="print-game" class="container">
+            <div class="container-nav"><h2>👩‍💻 Speed Typer 👨‍💻</h2></div>
+            <div class="container-mid">
+                <span id = "remain-time">Time left: 8s</span>
+                <span id = "score">Score: 0</span>
+            </div>
+            <p>Type the following:</p>
+            <h2 id="standard-answer">north</h2>
+            <input id="answer" type="text" name="" placeholder="Type the word here...">
+        </div>
+
+
+        <div id="game-over" class="container">
+            <h2>Time ran out</h2>
+            <p id="final-score">Your final score is 0</p>
+            <button class="reload-btn" type="button" name="button">Reload</button>
+        </div>
+
+        <button class="setting-btn" type="button" name="button">
+            <i class="fas fa-cog"></i>
+        </button>
+
+        <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
