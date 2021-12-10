@@ -58,18 +58,6 @@ const data = [
 
 data.forEach(createBox);
 
-// Create speech boxes
-
-// var parentdiv=$('<div></div>');        //创建一个父div
-// parentdiv.attr('id','parent');        //给父div设置id
-// parentdiv.addclass('parentdiv');    //添加css样式
-//
-// var childdiv=$('<div></div>');        //创建一个子div
-// childdiv.attr('id','child');            //给子div设置id
-// childdiv.addclass('childdiv');    //添加css样式
-// childdiv.appendto(parentdiv);        //将子div添加到父div中
-//
-// parentdiv.appendto('body');            //将父div添加到body中
 function createBox(item) {
   let box = $('<div></div>');
 
