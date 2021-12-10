@@ -22,4 +22,10 @@
 
 ![](https://img-blog.csdnimg.cn/4fff6f29850d4818b086c517576af1ad.png)
 
+## 记账本
 
+记录你的每笔支出的数额和原因.
+
+(只完成了html+css,你需要再完成一个js,使得按下按钮后添加一个新的div块到history区域)
+
+![](https://img-blog.csdnimg.cn/88e35d30c11c47f4853ea5d11f11e22e.png)
